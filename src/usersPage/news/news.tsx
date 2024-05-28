@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import CardComponent from '../../component/card/card.component';
-import Sidebar from '../../component/sidebar/sidebar.component';
+import SidebarComponent from '../../component/sidebar/sidebar.component';
 
 const SCardGroup = styled(CardGroup)`
   padding: 0;
@@ -32,7 +32,7 @@ const News = () => {
         </SCardGroup>
       </Col>
         <Col>
-        <Sidebar/>
+        <SidebarComponent/>
         </Col>
       </Row>
       </>
