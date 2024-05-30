@@ -7,7 +7,7 @@ import SidebarComponent from '../../component/sidebar/sidebar.component';
 
 const SCardGroup = styled(CardGroup)`
   padding: 0;
-  padding-top: 10em;
+  padding-top: 2em;
   padding-bottom: 2em;
   gap:1em;
 `

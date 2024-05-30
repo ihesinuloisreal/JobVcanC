@@ -7,6 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './usersPage/home/home';
 import News from './usersPage/news/news';
 import Footer from './component/footer/footer.component';
+import SocialHandle from './component/social/social-handle.component';
 
 
 
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <>
+    <SocialHandle/>
       <Header/>
     <Container>
       <Routes>
